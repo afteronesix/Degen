@@ -119,7 +119,7 @@ function Header() {
     <header className="flex flex-row items-center">
      
 
-      <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
+      <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100 item-center">
        Degen Pig
       </h1>
     </header>
