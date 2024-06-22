@@ -106,7 +106,7 @@ export default function Home() {
               setQuantity(1);
             }}
           >
-            {`Claim NFT (${getPrice(quantity)} ETH)`}
+            {`Mint (${getPrice(quantity)} DEGEN)`}
           </TransactionButton>
         </div>
       </div>
@@ -117,17 +117,10 @@ export default function Home() {
 function Header() {
   return (
     <header className="flex flex-row items-center">
-      <Image
-        src={"./public/pig.png"}
-        alt=""
-        className="size-[150px] md:size-[150px]"
-        style={{
-          filter: "drop-shadow(0px 0px 24px #a726a9a8)",
-        }}
-      />
+     
 
       <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-        NFT Claim App
+       Degen Pig
       </h1>
     </header>
   );
