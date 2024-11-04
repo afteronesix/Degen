@@ -14,7 +14,7 @@ export default function Home() {
   const account = useActiveAccount();
 
   // Replace the chain with the chain you want to connect to
-  const chain = defineChain( 666666666 );
+  const chain = defineChain( 33139 );
 
   const [quantity, setQuantity] = useState(1);
 
@@ -22,7 +22,7 @@ export default function Home() {
   const contract = getContract({
     client: client,
     chain: chain,
-    address: "0xBaCCa82bE65264Dc80CC3d45C9baa6BDc074CD5d"
+    address: "0x348A33996872A7F1434882A3B6Fd6Ddf764AE7d2"
   });
 
   const { data: contractMetadata, isLoading: isContractMetadataLaoding } = useReadContract( getContractMetadata,
