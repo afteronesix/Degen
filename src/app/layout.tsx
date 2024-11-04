@@ -6,9 +6,9 @@ import { ThirdwebProvider } from "thirdweb/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mint Degen Pig",
+  title: "Mint PixcelBoy",
   description:
-    "Just a PIG who wants to join Degen Chain",
+    "Just a PixcelBoy",
 };
 
 export default function RootLayout({
