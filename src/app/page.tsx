@@ -106,7 +106,7 @@ export default function Home() {
               setQuantity(1);
             }}
           >
-            {`Mint (${getPrice(quantity)} DEGEN)`}
+            {`Mint (${getPrice(quantity)} Ape)`}
           </TransactionButton>
         </div>
       </div>
